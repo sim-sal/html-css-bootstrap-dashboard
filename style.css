@@ -1,0 +1,25 @@
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regole header */
+header{
+    height: 60px;
+    background-color: rgb(249, 250, 251);
+}
+
+.custom-navbar{
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+}
+
+.background-white{
+    background-color: white;
+}
+
+.bell-color{
+    color: rgb(255, 145, 0);
+}
