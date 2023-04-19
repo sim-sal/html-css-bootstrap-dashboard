@@ -71,3 +71,15 @@ header{
 .side-down{
     margin-bottom: 15px;
 }
+
+/********** regole main **********/
+#under{
+    height: calc(100vh - 60px);
+    display: flex;
+}
+
+/* regole main-up */
+#main-up{
+    background-color: rgb(28, 113, 233);
+    height: 120px;
+}
