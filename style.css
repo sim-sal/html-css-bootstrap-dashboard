@@ -42,6 +42,11 @@ header{
     cursor: pointer;
 }
 
+.btn-group > button{
+    background-color: white;
+    border: none;
+}
+
 /********** regole contenuto principale **********/
 #under{
     height: calc(100vh - 60px);
@@ -110,6 +115,11 @@ main{
 
 .square-custom{
     font-size: 30px;
+}
+
+.blu > button{
+    background-color: rgb(28, 113, 233);
+    border: none;
 }
 
 /* regole main-down */
