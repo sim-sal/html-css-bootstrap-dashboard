@@ -41,3 +41,33 @@ header{
 .header-right > i:hover{
     cursor: pointer;
 }
+
+/********** regole main **********/
+
+/* regole side */
+#side{
+    background-image: url(img/sidebar-bg.png);
+    background-color: rgb(5, 30, 51);
+    width: 130px;
+    height: calc(100vh - 60px);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+
+.side-up{
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+.side-up > div:hover , .side-down > div:hover{
+    background-color: rgb(173, 173, 173);
+    cursor: pointer;
+}
+
+.side-down{
+    margin-bottom: 15px;
+}
