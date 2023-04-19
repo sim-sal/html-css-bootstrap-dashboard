@@ -132,3 +132,21 @@ main{
 th > img{
     max-width: 4%;
 }
+
+.scheme{
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.scheme > h3{
+    padding: 10px;
+}
+
+.scheme > .container{
+    background-color: white;
+    border-top: 1px solid lightgray;
+}
+
+.scheme > .container > .row{
+    border: 1px solid lightgrey;
+}
