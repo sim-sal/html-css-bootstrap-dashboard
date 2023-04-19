@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+/* font */
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
 /* regole header */
 header{
     height: 60px;
@@ -16,10 +21,23 @@ header{
     border-radius: 10px;
 }
 
+.custom-navbar > input{
+    background-color: rgb(230, 230, 230);
+}
+
 .background-white{
     background-color: white;
 }
 
 .bell-color{
     color: rgb(255, 145, 0);
+}
+
+.header-right{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-right > i:hover{
+    cursor: pointer;
 }
