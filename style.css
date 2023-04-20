@@ -47,6 +47,10 @@ header{
     border: none;
 }
 
+.btn-group > button:hover{
+    background-color: white;
+}
+
 /********** regole contenuto principale **********/
 #under{
     height: calc(100vh - 60px);
@@ -158,7 +162,7 @@ th > img{
 .scheme{
     border: 1px solid lightgrey;
     border-radius: 5px;
-    padding: 2px;
+    
 }
 
 .scheme > h3{
@@ -183,7 +187,7 @@ th > img{
     margin: 10px 0;
 }
 
-.col-12{
+.col-margin{
     border: 1px solid lightgrey;
 }
 
