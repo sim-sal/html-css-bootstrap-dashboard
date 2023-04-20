@@ -42,7 +42,14 @@ header{
     justify-content: space-around;
 }
 
-.header-right > i:hover{
+.header-icons{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-right > div > i:hover{
     cursor: pointer;
 }
 
@@ -53,6 +60,36 @@ header{
 
 .btn-group > button:hover{
     background-color: white;
+}
+
+.logo-resp{
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .logo-notresp{
+        display: none;
+    }
+
+    .logo-resp{
+        display: inline-block;
+        max-width: 100%;
+    }
+
+    .header-right > div > i{
+        display: none;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .logo-notresp{
+        display: none;
+    }
+
+    .logo-resp{
+        display: inline-block;
+        max-width: 5%;
+    }
 }
 
 /********** regole contenuto principale **********/
