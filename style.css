@@ -89,11 +89,33 @@ header{
     margin-bottom: 15px;
 }
 
+@media screen and (max-width:768px) {
+    .side-up > div > span{
+        display: none;
+    }
+
+    .side-down > div > span{
+        display: none;
+    }
+
+    #side{
+        width: 60px;
+    }
+
+}
+
+
 /********** regole main **********/
 main{
     width: calc(100% - 130px);
     background-color: rgb(247, 247, 247);
     overflow: auto;
+}
+
+@media screen and (max-width:768px) {
+    main{
+        width: calc(100% - 65px);
+    }
 }
 
 /* regole main-up */
