@@ -32,11 +32,11 @@
 
             <div class="row align-items-center">
 
-                <div class="col background-white">
+                <div class="col-lg-2 col-md-2  background-white">
                     <img src="img/logo.svg" alt="">
                 </div> 
     
-                <div class="col-9">
+                <div class="col-lg-8 col-md-8">
                     
                     <nav class="navbar navbar-expand-lg bg-body-tertiary">
                         <div class="container-fluid  custom-navbar">
@@ -47,7 +47,7 @@
 
                 </div>
     
-                <div class="col header-right background-white">
+                <div class="col-lg-2 col-md-2 header-right background-white">
                     <i class="fa-solid fa-list"></i>
                     <i class="fa-solid fa-circle-question"></i>
                     <i class="fa-solid fa-ellipsis-vertical"></i>
@@ -117,7 +117,7 @@
 
                     <div class="row align-items-center justify-content-between">
                       
-                        <div class="col-5">
+                        <div class="col-6">
                             <div>
                                 <h3>Boolean</h3>
                                 <span class="my-button">Piano blaze</span>
@@ -146,7 +146,7 @@
                             </div>
                         </div>
     
-                        <div class="col-3">
+                        <div class="col-4">
                             <span>Studenti online negli ultimi 30 minuti</span>
                             <h3>125</h3>
                         </div>
@@ -155,7 +155,7 @@
 
                             <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><span>Nuovo Studente <i class="fa-regular fa-square-plus square-custom"></i></i></span></button>
 
-                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas offcanvas-end offcanvas-width" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                 <div class="offcanvas-header">
                                     <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -204,6 +204,11 @@
                                         <div class="col-md-2">
                                           <label for="inputZip" class="form-label">CAP</label>
                                           <input type="text" class="form-control" id="inputZip">
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label for="formFileMultiple" class="form-label">Foto</label>
+                                            <input class="form-control" type="file" id="formFileMultiple" multiple>
                                         </div>
 
                                         <div class="col-12">

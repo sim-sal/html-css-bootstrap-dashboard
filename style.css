@@ -21,6 +21,10 @@ header{
     border-radius: 10px;
 }
 
+.row > div > nav{
+    flex-wrap: nowrap;
+}
+
 .custom-navbar > input{
     background-color: rgb(230, 230, 230);
 }
@@ -99,11 +103,11 @@ main{
     color: white;
 }
 
-.col-5 > div > h3{
+.col-6 > div > h3{
     display: inline-block;
 }
 
-.col-5 > div > span{
+.col-6 > div > span{
     font-size: 12px;
 }
 
