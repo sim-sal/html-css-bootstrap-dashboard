@@ -137,9 +137,28 @@ th > img{
     max-width: 4%;
 }
 
+.table-icons{
+    border: 1px solid rgb(109, 118, 126);
+    color: rgb(109, 118, 126);
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.table-icons > i{
+    padding: 5px;
+}
+
+.table-icons:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
 .scheme{
     border: 1px solid lightgrey;
     border-radius: 5px;
+    padding: 2px;
 }
 
 .scheme > h3{
