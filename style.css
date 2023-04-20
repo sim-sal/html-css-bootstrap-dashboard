@@ -123,6 +123,10 @@ main{
 }
 
 /* regole main-down */
+.main-down{
+    margin-top: 20px;
+}
+
 .table{
     font-size: 12px;
     background-color: white;
@@ -143,10 +147,37 @@ th > img{
 }
 
 .scheme > .container{
-    background-color: white;
     border-top: 1px solid lightgray;
+    background-color: white;
 }
 
 .scheme > .container > .row{
     border: 1px solid lightgrey;
+}
+
+.stats{
+    margin-top: 20px;
+    background-color: white;
+}
+
+.stats > .container > .row{
+    margin: 10px 0;
+}
+
+.col-12{
+    border: 1px solid lightgrey;
+}
+
+.col-12 > img{
+    max-width: 100%;
+}
+
+.col-12 > ul{
+    list-style: none;
+}
+
+.col-12 > ul > li{
+    border-bottom: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
 }
